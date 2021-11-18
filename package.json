@@ -1,0 +1,29 @@
+{
+	"name": "design-patterns-test",
+	"version": "1.0.0",
+	"description": "Design patterns test",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "npx tsc",
+		"start:absFactory": "node ./build/patterns/abstract-factory/index.js",
+		"start:strategy": "node ./build/patterns/strategy/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/brunau1/design-patterns-test.git"
+	},
+	"author": "brunau1",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/brunau1/design-patterns-test/issues"
+	},
+	"homepage": "https://github.com/brunau1/design-patterns-test#readme",
+	"devDependencies": {
+		"@types/node": "^16.11.7",
+		"typescript": "^4.4.4"
+	},
+	"dependencies": {
+		"fs": "0.0.1-security"
+	}
+}
